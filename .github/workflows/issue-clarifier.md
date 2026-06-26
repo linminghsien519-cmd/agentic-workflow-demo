@@ -10,23 +10,14 @@ safe-outputs:
  
 engine: copilot
 ---
-
-
-# issue-clarifier
-
-Describe what you want the AI to do when this workflow runs.
-
-## Instructions
-
-Replace this section with specific instructions for the AI. For example:
-
-1. Read the issue description and comments
-2. Analyze the request and gather relevant information
-3. Provide a helpful response or take appropriate action
-
-Be clear and specific about what the AI should accomplish.
-
-## Notes
-
-- Run `gh aw compile` to generate the GitHub Actions workflow
-- See https://github.github.com/gh-aw/ for complete configuration options and tools documentation
+ 
+# Issue 釐清小幫手
+ 
+請閱讀目前這個 issue 的標題與內容，判斷它是否包含足夠資訊：
+- 問題的重現步驟
+- 預期行為與實際行為
+- 環境資訊（版本、作業系統等）
+ 
+如果缺少上述任何一項，請以友善、鼓勵的語氣留言，條列出需要補充的內容。
+如果資訊已經足夠，請留言確認收到，並用兩三句話摘要這個 issue。
+全程使用正體中文回覆。
